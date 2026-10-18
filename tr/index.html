@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Screen Snap Tool — Destek</title>
+  <meta name="description" content="Simple Screen Snap Tool desteği: ekran görüntüsü alıp üzerine not ekleyen, tamamen çevrimdışı çalışan macOS menü çubuğu uygulaması.">
+  <link rel="alternate" hreflang="en" href="../index.html">
+  <link rel="alternate" hreflang="tr" href="index.html">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg>
+        </span>
+        Simple Screen Snap Tool
+      </a>
+      <nav class="nav" aria-label="Ana menü">
+        <a href="index.html" aria-current="page">Destek</a>
+        <a href="privacy.html">Gizlilik</a>
+        <a class="lang" href="../index.html" hreflang="en" lang="en">English</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="hero">
+      <h1>Destek</h1>
+      <p>Simple Screen Snap Tool menü çubuğunda çalışır. Ekranın istediğiniz bölümünün görüntüsünü alın; ok, şekil, metin ve pikselleştirme ile işaretleyin, ardından kopyalayın ya da kaydedin. Her şey Mac'inizde gerçekleşir, internet bağlantısı gerekmez.</p>
+      <div class="badges">
+        <span class="badge">Tamamen çevrimdışı</span>
+        <span class="badge">Hesap gerekmez</span>
+        <span class="badge">Veri toplanmaz</span>
+      </div>
+    </div>
+
+    <section class="card" id="baslarken">
+      <h2>Başlarken</h2>
+      <ol class="steps">
+        <li>Simple Screen Snap Tool'u açın. Simgesi ekranın üstündeki menü çubuğunda görünür.</li>
+        <li><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>9</kbd> tuşlarına basın ya da çekimi menü çubuğu simgesinden başlatın.</li>
+        <li>İlk seferde macOS <strong>Ekran Kaydı</strong> izni ister. <strong>Sistem Ayarları → Gizlilik ve Güvenlik → Ekran Kaydı</strong> bölümünü açın, Simple Screen Snap Tool'u etkinleştirin; macOS isterse uygulamadan çıkıp yeniden açın.</li>
+        <li>Fareyle sürükleyerek bir alan seçin, araç çubuğuyla not ekleyin; sonra panoya kopyalayıp kapatmak için <kbd>Return</kbd>, kaydetmek için <kbd>⌘</kbd> <kbd>S</kbd> tuşlarına basın.</li>
+      </ol>
+    </section>
+
+    <section class="card" id="kisayollar">
+      <h2>Klavye kısayolları</h2>
+      <table class="shortcuts">
+        <thead><tr><th scope="col">Tuş</th><th scope="col">İşlev</th></tr></thead>
+        <tbody>
+          <tr><td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>9</kbd></td><td>Ekran görüntüsü al (varsayılan genel kısayol)</td></tr>
+          <tr><td><kbd>P</kbd></td><td>Kalem</td></tr>
+          <tr><td><kbd>L</kbd></td><td>Çizgi</td></tr>
+          <tr><td><kbd>A</kbd></td><td>Ok</td></tr>
+          <tr><td><kbd>R</kbd></td><td>Dikdörtgen</td></tr>
+          <tr><td><kbd>O</kbd></td><td>Elips</td></tr>
+          <tr><td><kbd>H</kbd></td><td>Vurgulayıcı</td></tr>
+          <tr><td><kbd>T</kbd></td><td>Metin</td></tr>
+          <tr><td><kbd>B</kbd></td><td>Pikselleştir (hassas bilgileri gizle)</td></tr>
+          <tr><td><kbd>⌘</kbd> <kbd>Z</kbd></td><td>Geri al</td></tr>
+          <tr><td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>Z</kbd></td><td>Yinele</td></tr>
+          <tr><td><kbd>Delete</kbd></td><td>Seçili notu sil</td></tr>
+          <tr><td><kbd>⌘</kbd> <kbd>C</kbd></td><td>Görüntüyü panoya kopyala</td></tr>
+          <tr><td><kbd>⌘</kbd> <kbd>S</kbd></td><td>Ekran görüntüsü klasörüne kaydet</td></tr>
+          <tr><td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>S</kbd></td><td>Farklı Kaydet… (ad ve konum seç)</td></tr>
+          <tr><td><kbd>Return</kbd></td><td>Kopyala ve kapat</td></tr>
+          <tr><td><kbd>Esc</kbd></td><td>İptal</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card" id="sss">
+      <h2>Sık sorulan sorular</h2>
+      <details>
+        <summary>Ekran görüntülerim nereye kaydediliyor?</summary>
+        <p><kbd>⌘</kbd> <kbd>S</kbd> varsayılan olarak <code>~/Pictures/Simple Screen Snap Tool</code> klasörüne kaydeder (Finder'da Resimler klasörünün içinde). Tek bir görüntüyü farklı bir adla veya konuma kaydetmek için <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>S</kbd> (Farklı Kaydet…) kullanın.</p>
+      </details>
+      <details>
+        <summary>Uygulama neden Ekran Kaydı izni istiyor?</summary>
+        <p>macOS, ekrandaki görüntüyü yakalayan her uygulamanın bu izni almasını zorunlu tutar. Uygulama bu izni yalnızca sizin istediğiniz ekran görüntüsünü almak için kullanır. Arka planda hiçbir şey kaydedilmez ve hiçbir şey Mac'inizden dışarı çıkmaz. İzni istediğiniz zaman Sistem Ayarları → Gizlilik ve Güvenlik → Ekran Kaydı bölümünden kapatabilirsiniz.</p>
+      </details>
+      <details>
+        <summary>İzni verdim ama ekran görüntüsü hâlâ alınamıyor.</summary>
+        <p>Simple Screen Snap Tool'dan menü çubuğu simgesi üzerinden çıkın ve yeniden açın. macOS yeni verilen Ekran Kaydı iznini ancak uygulama yeniden başlatıldığında uygular. Sorun sürerse uygulamayı Ekran Kaydı listesinden kaldırıp tekrar ekleyin ve uygulamayı yeniden başlatın.</p>
+      </details>
+      <details>
+        <summary>Ekran görüntülerim çok büyük. Normal boyutta kaydedebilir miyim?</summary>
+        <p>Evet. Retina ekranlarda görüntüler varsayılan olarak tam piksel çözünürlüğünde (2x) alınır. Uygulamanın Ayarlar bölümünden görüntüleri standart (1x) çözünürlükte kaydetmeyi seçebilirsiniz; böylece dosyalar küçülür ve ekranda gördüğünüz boyutla aynı olur.</p>
+      </details>
+      <details>
+        <summary>Uygulama ekran görüntülerimi bir yere yüklüyor mu?</summary>
+        <p>Hayır. Bulut hizmeti, hesap ya da eşitleme yoktur. Uygulama hiçbir ağ bağlantısı kurmaz; ekran görüntüleriniz siz paylaşmadığınız sürece Mac'inizde kalır. Ayrıntılar için <a href="privacy.html">Gizlilik Politikası</a>'na bakın.</p>
+      </details>
+    </section>
+
+    <section class="card" id="iletisim">
+      <h2>İletişim</h2>
+      <p>Bir hata mı buldunuz, sorunuz ya da öneriniz mi var? E-posta gönderin; mümkünse macOS ve uygulama sürümünüzü de yazın.</p>
+      <a class="contact" href="mailto:osmanertem@gmail.com?subject=Simple%20Screen%20Snap%20Tool%20Destek">osmanertem@gmail.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Simple Screen Snap Tool</span>
+      <span><a href="privacy.html">Gizlilik Politikası</a> · <a href="../index.html" hreflang="en">English</a></span>
+    </div>
+  </footer>
+</body>
+</html>
